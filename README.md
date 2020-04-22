@@ -6,7 +6,7 @@ Normal: a ligeira raposa marrom saltou sobre o cachorro cansado
 Cifrado: d oljhlud udsrvd pduurp vdowrx vreuh r fdfkruur fdqvdgr
 
 ## Abordagem
-Baixar o arquivo JSON pelo portal da codenation onde o mesmo teria a seguinte estrutura:
+Baixar o arquivo JSON (*codigo.json*) pelo portal da codenation onde o mesmo teria a seguinte estrutura:
 
 ```
 {
@@ -17,7 +17,7 @@ Baixar o arquivo JSON pelo portal da codenation onde o mesmo teria a seguinte es
 	"resumo_criptografico": "aqui vai o resumo"
 }
 ```
-E com isso deveríamos decifrar o código e criptografá-lo usando o algoritmo **sha1** através da linguagem de programação selecionada.
+E com isso deveríamos decifrar o código e criptografá-lo usando o algoritmo **sha1** através da linguagem de programação selecionada. Quando finalizado deveríamos enviar o JSON com o nome *answer.json*
 
 ## Observação
 Para esse trabalho escolhi utilizar a linguagem **python** e as bibliotecas **hashlib**, **json** e **requests**.
