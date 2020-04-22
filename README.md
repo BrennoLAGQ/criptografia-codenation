@@ -17,7 +17,7 @@ Baixar o arquivo JSON (*codigo.json*) pelo portal da codenation onde o mesmo ter
 	"resumo_criptografico": "aqui vai o resumo"
 }
 ```
-E com isso deveríamos decifrar o código e criptografá-lo usando o algoritmo **sha1** através da linguagem de programação selecionada. Quando finalizado deveríamos enviar o JSON com o nome *answer.json*
+E com isso deveríamos decifrar o código e criptografá-lo usando o algoritmo **sha1** (*main.py) através da linguagem de programação selecionada. Quando finalizado deveríamos enviar(*apply.py*) o JSON com o nome *answer.json*
 
 ## Observação
 Para esse trabalho escolhi utilizar a linguagem **python** e as bibliotecas **hashlib**, **json** e **requests**.
